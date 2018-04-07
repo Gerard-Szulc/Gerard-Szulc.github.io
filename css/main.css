@@ -209,6 +209,21 @@ nav li {
 .hamburger{
     display: none;
 }
+footer{
+     background-color: #0f0f0f;
+ }
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 /*button do chowania menu*/
 input[type=checkbox]{
     display: none;
@@ -261,10 +276,6 @@ input[type=checkbox]{
         height: 40px;
     }
 
-}
-footer{
-    height: 20px;
-    background-color: #0f0f0f;
 }
 
 
