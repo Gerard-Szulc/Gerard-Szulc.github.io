@@ -152,7 +152,7 @@ nav{
     display: block;
     position: fixed;
     z-index: 9999;
-    width: 100%;
+    width: 100vw;
     height: auto;
     box-shadow: 0 3px 10px #000c;
 
@@ -233,6 +233,9 @@ input[type=checkbox]{
     display: none;
 }
 @media screen and (max-width: 1000px){
+    nav{
+        width: 100vw;
+    }
     nav ul{
         padding: 0;
         display: flex;
@@ -260,13 +263,13 @@ input[type=checkbox]{
         display: flex;
         transition: 0.2s;
         visibility: visible;
-        padding: 0px;
+        padding: 10px;
     }
 
 
     .hamburger{
         display: flex;
-        padding: 0px;
+        padding: 10px;
         margin: 0px;
         order: -99;
     }
