@@ -108,6 +108,9 @@ textarea {
     margin: 0;
     align-items: flex-end;
 }
+.row{
+    width: 100vw;
+}
 
 .column-image {
 
@@ -139,6 +142,7 @@ margin: 10px;
     color: white;
 
 }
+
 
 
 
