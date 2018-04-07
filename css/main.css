@@ -110,7 +110,8 @@ textarea {
 }
 
 .column-image {
-    bottom: 4rem;
+
+    bottom: 15%;
 }
 .gercio {
     max-height: 250px;
@@ -213,9 +214,6 @@ input[type=checkbox]{
     display: none;
 }
 @media screen and (max-width: 1000px){
-    #logo{
-        order: 1;
-    }
     nav ul{
         padding: 0;
         display: flex;
@@ -245,16 +243,8 @@ input[type=checkbox]{
         visibility: visible;
         padding: 0px;
     }
-    /*
 
-    ul:active > .right-side {
-        height: 2.75rem;
-        display: flex;
-        transition: 0.2s;
-        visibility: visible;
-        padding: 0px;
 
-    }*/
     .hamburger{
         display: flex;
         padding: 0px;
@@ -271,6 +261,10 @@ input[type=checkbox]{
         height: 40px;
     }
 
+}
+footer{
+    height: 20px;
+    background-color: #0f0f0f;
 }
 
 
