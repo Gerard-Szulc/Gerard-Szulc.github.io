@@ -120,9 +120,9 @@ textarea {
     bottom: 15%;
 }
 .gercio {
-    max-height: 250px;
-    border-radius: 10px;
-    margin: 0;
+    max-height: 20rem;
+    border-radius: 5px;
+    margin-top: 10rem;
     transform: rotate(-90deg);
     image-rendering: auto;
     float: left;
