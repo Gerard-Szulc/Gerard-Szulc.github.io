@@ -129,7 +129,10 @@ header{
     background-size: 150px 150px;
     background-repeat: repeat;
   }
-
+.computor{
+    height: 50%;
+    margin-top: 10%;
+}
 .gercio {
     margin-top: 8rem;
     max-height: 20rem;
@@ -156,8 +159,8 @@ nav ul{
     margin: 0px;
 }
 
-figure{
-
+.figure-images{
+    height: 100vh;
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -223,7 +226,9 @@ footer a:hover{
     text-decoration: none;
     color: white;
 }
-
+#about {
+    scroll-behavior: smooth
+}
 /*button do chowania menu*/
 input[type=checkbox]{
     display: none;
@@ -263,8 +268,8 @@ input[type=checkbox]{
         margin: 5px;
 
     }
-    #about p{
-        margin-left: 40px;
+    #about {
+        scroll-behavior: smooth
     }
 
     .hamburger{
