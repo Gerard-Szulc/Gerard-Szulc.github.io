@@ -130,7 +130,7 @@ header{
     background-repeat: repeat;
   }
 .computor{
-    height: 50%;
+    height: 20rem;
     margin-top: 10%;
 }
 .gercio {
@@ -142,16 +142,24 @@ header{
     image-rendering: auto;
 }
 
+.main-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
 
 
 nav{
-    background-color: #ddddee;
+    background-color: #e8ddcb;
     display: block;
     position: fixed;
     z-index: 9999;
     width: 100%;
     height: auto;
     box-shadow: 0 3px 10px #000c;
+    transition: 1s;
 
 }
 nav ul{
@@ -160,11 +168,7 @@ nav ul{
 }
 
 .figure-images{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
     margin-top: 0;
-    padding-bottom: 10rem;
 }
 
 nav li {
