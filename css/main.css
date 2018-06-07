@@ -154,16 +154,54 @@ header{
     background: radial-gradient( #e8ddcb, transparent 80%);
 }
 
-.topButton{
+#burger-container{
     position: fixed;
-    top: 90%;
+    top: 70%;
     left: 90%;
-    border-radius: 50%;
-    height: 6%;
-    width: 8%;
-
-
+    margin:100px auto;
+    width:50px;
 }
+
+
+#burger{
+    cursor:pointer;
+    display:block;
+}
+
+
+#burger span{
+    background: rgb(49, 122, 88);
+    display:block;
+    width:80px;
+    height:14px;
+    margin-bottom: 10px;
+    position: relative;
+    top:0;
+    transition: all ease-in-out 0.4s;  
+}
+
+#burger-container.open span:nth-child(2),
+#burger-container.open span:nth-child(3){
+    width: 0;
+    opacity:0;
+    
+}
+
+#burger-container.open span:nth-child(1){
+
+    transform: rotate(-45deg);
+    top:36px;
+    left: 5px;
+    width: 50px;
+}
+
+#burger-container.open span:nth-child(4){
+    transform: rotate(45deg);
+    top:-36px;
+    left: 30px;
+    width: 50px;
+}
+
 nav{
     background-color: #e8ddcb;
     display: block;
@@ -249,6 +287,13 @@ input[type=checkbox]{
     display: none;
 }
 @media screen and (max-width: 1000px){
+    #burger-container{
+        top: 70%;
+        left: 70%;
+        margin:100px auto;
+        width:50px;
+    }
+    
     nav{
         width: 100%;
     }
