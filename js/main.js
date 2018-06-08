@@ -55,6 +55,6 @@ const navbar = document.getElementById('navbar')
 
 const navbarDriver = document.getElementById('show-menu')
 
-navbar.addEventListener('blur',()=>navbarDriver.checked = true)
+navbar.addEventListener('mouseleave',()=> navbarDriver.checked = false)
   
 
