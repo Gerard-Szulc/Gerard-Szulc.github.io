@@ -168,14 +168,14 @@ header{
 
 
 #burger{
-    cursor:pointer;
-    display:block;
+    cursor: pointer;
+    display: block;
 }
 
 
 #burger span{
     background: rgb(49, 122, 88);
-    display:block;
+    display: block;
     width: 25px;
     height: 3px;
     margin-bottom: 5px;
